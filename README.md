@@ -2,7 +2,7 @@
 
 **七大电商平台商家端统一 CLI / MCP Demo**
 
-面向抖店、京麦、天猫、小红书商家、视频号小店、快手小店、拼多多商家。参考 [CatBus](https://github.com/cv-cat/catbus) 的统一命令、平台注册表、能力发现和 JSON 输出设计，但这是**独立的 Python 实现**，没有复制 CatBus 平台 API，也不依赖 `mock_coffice`。
+面向抖店、京麦、天猫、小红书商家、视频号小店、快手小店、拼多多商家。参考 [CatBus](https://github.com/cv-cat/catbus) 的统一命令、平台注册表、能力发现和 JSON 输出设计，但这是**独立的 Python 实现**，没有复制 CatBus 平台 API。
 
 > **V0.1 是独立可运行的离线演示项目，不是已经逆向完成的真实商家 WebAPI。** 使用 `--demo` 时，修改只发生在 `.merchantbus/demo-state.json` 本地文件；真实模式全部返回 `LIVE_NOT_IMPLEMENTED`，不会操作真实商品、价格或优惠券。
 
