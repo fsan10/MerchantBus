@@ -1,0 +1,12 @@
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+.pytest_cache/
+.coverage
+build/
+dist/
+.merchantbus/
+*.har
+*.secret.json
+.env

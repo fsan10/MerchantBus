@@ -1,0 +1,22 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "merchantbus"
+version = "0.1.0"
+description = "An independent CatBus-inspired unified CLI and MCP demo for merchant platforms"
+readme = "README.md"
+requires-python = ">=3.10"
+license = {text = "MIT"}
+authors = [{name = "fsan10"}]
+dependencies = []
+
+[project.optional-dependencies]
+mcp = ["mcp>=1.9,<3"]
+
+[project.scripts]
+merchantbus = "merchantbus.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
